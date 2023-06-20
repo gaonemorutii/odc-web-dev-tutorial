@@ -1,42 +1,206 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Image Gallery</title>
+  <title>Class of 2023 Gallery</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <style>
-    .grid-container {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      grid-gap: 20px;
+    .card-deck {
+      margin: 20px 0;
     }
-    .grid-item {
-      text-align: center;
+    .card-img-top {
+      height: 200px; /* Set the desired height for the card images */
+      object-fit: cover; /* Maintain aspect ratio and cover the container */
     }
   </style>
 </head>
 <body>
-  <div class="grid-container">
-    <div class="grid-item">
-      <img src="image1.jpg" alt="Image 1">
-      <p>Name 1</p>
-      <p>Surname 1</p>
-      <p>Phone 1</p>
-      <p>Email 1</p>
+  <div class="container">
+    
+    <!-- Card deck -->
+    <div class="card-deck">
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <!-- Card -->
+        <div class="card">
+          <!-- Card image -->
+          <div class="view overlay">
+            <img class="card-img-top" src="images/web_dev_1.jpg" alt="boago">
+            <a href="#!">
+              <div class="mask rgba-white-slight"></div>
+            </a>
+          </div>
+          <!-- Card content -->
+          <div class="card-body">
+            <!-- Title -->
+            <h4 class="card-title">Boago</h4>
+            <!-- Text -->
+            <p class="card-text">A simple description about your hobbies</p>
+            <!-- Button -->
+            <button type="button" class="btn btn-light-blue btn-md">Read more</button>
+          </div>
+        </div>
+        <!-- Card -->
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <!-- Card -->
+        <div class="card mb-4">
+          <!-- Card image -->
+          <div class="view overlay">
+            <img class="card-img-top" src="images/web_dev_2.jpg" alt="Card image cap">
+            <a href="#!">
+              <div class="mask rgba-white-slight"></div>
+            </a>
+          </div>
+          <!-- Card content -->
+          <div class="card-body">
+            <!-- Title -->
+            <h4 class="card-title">Gorata</h4>
+            <!-- Text -->
+            <p class="card-text">A simple description about your hobbies</p>
+            <!-- Button -->
+            <button type="button" class="btn btn-light-blue btn-md">Read more</button>
+          </div>
+        </div>
+        <!-- Card -->
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <!-- Card -->
+        <div class="card mb-4">
+          <!-- Card image -->
+          <div class="view overlay">
+            <img class="card-img-top" src="images/web_dev_3.jpg" alt="Card image cap">
+            <a href="#!">
+              <div class="mask rgba-white-slight"></div>
+            </a>
+          </div>
+          <!-- Card content -->
+          <div class="card-body">
+            <!-- Title -->
+            <h4 class="card-title">Jamie </h4>
+            <!-- Text -->
+            <p class="card-text">A simple description about your hobbies</p>
+            <!-- Button -->
+            <button type="button" class="btn btn-light-blue btn-md">Read more</button>
+          </div>
+        </div>
+        <!-- Card -->
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <!-- Card -->
+        <div class="card">
+          <!-- Card image -->
+          <div class="view overlay">
+            <img class="card-img-top" src="images/web_dev_4.jpg" alt="Card image cap">
+            <a href="#!">
+              <div class="mask rgba-white-slight"></div>
+            </a>
+          </div>
+          <!-- Card content -->
+          <div class="card-body">
+            <!-- Title -->
+            <h4 class="card-title">Gaone </h4>
+            <!-- Text -->
+            <p class="card-text">A simple description about your hobbies</p>
+            <!-- Button -->
+            <button type="button" class="btn btn-light-blue btn-md">Read more</button>
+          </div>
+        </div>
+        <!-- Card -->
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <!-- Card -->
+        <div class="card mb-4">
+          <!-- Card image -->
+          <div class="view overlay">
+            <img class="card-img-top" src="images/web_dev_5.jpg" alt="Card image cap">
+            <a href="#!">
+              <div class="mask rgba-white-slight"></div>
+            </a>
+          </div>
+          <!-- Card content -->
+          <div class="card-body">
+            <!-- Title -->
+            <h4 class="card-title">Karabo</h4>
+            <!-- Text -->
+            <p class="card-text">A simple description about your hobbies</p>
+            <!-- Button -->
+            <button type="button" class="btn btn-light-blue btn-md">Read more</button>
+          </div>
+        </div>
+        <!-- Card -->
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <!-- Card -->
+        <div class="card mb-4">
+          <!-- Card image -->
+          <div class="view overlay">
+            <img class="card-img-top" src="images/web_dev_6.jpg" alt="Card image cap">
+            <a href="#!">
+              <div class="mask rgba-white-slight"></div>
+            </a>
+          </div>
+          <!-- Card content -->
+          <div class="card-body">
+            <!-- Title -->
+            <h4 class="card-title">Fiona </h4>
+            <!-- Text -->
+            <p class="card-text">A simple description about your hobbies</p>
+            <!-- Button -->
+            <button type="button" class="btn btn-light-blue btn-md">Read more</button>
+          </div>
+        </div>
+        <!-- Card -->
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <!-- Card -->
+        <div class="card mb-4">
+          <!-- Card image -->
+          <div class="view overlay">
+            <img class="card-img-top" src="images/web_dev_7.jpg" alt="Card image cap">
+            <a href="#!">
+              <div class="mask rgba-white-slight"></div>
+            </a>
+          </div>
+          <!-- Card content -->
+          <div class="card-body">
+            <!-- Title -->
+            <h4 class="card-title">Katlego</h4>
+            <!-- Text -->
+            <p class="card-text">A simple description about your hobbies</p>
+            <!-- Button -->
+            <button type="button" class="btn btn-light-blue btn-md">Read more</button>
+          </div>
+        </div>
+        <!-- Card -->
+      </div>
+
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <!-- Card -->
+        <div class="card mb-4">
+          <!-- Card image -->
+          <div class="view overlay">
+            <img class="card-img-top" src="images/web_dev_8.jpg" alt="Card image cap">
+            <a href="#!">
+              <div class="mask rgba-white-slight"></div>
+            </a>
+          </div>
+          <!-- Card content -->
+          <div class="card-body">
+            <!-- Title -->
+            <h4 class="card-title">Pono</h4>
+            <!-- Text -->
+            <p class="card-text">A simple description about your hobbies</p>
+            <!-- Button -->
+            <button type="button" class="btn btn-light-blue btn-md">Read more</button>
+          </div>
+        </div>
+        <!-- Card -->
+      </div>
     </div>
-    <div class="grid-item">
-      <img src="image2.jpg" alt="Image 2">
-      <p>Name 2</p>
-      <p>Surname 2</p>
-      <p>Phone 2</p>
-      <p>Email 2</p>
-    </div>
-    <!-- Repeat the grid-item divs for the remaining images -->
-    <div class="grid-item">
-      <img src="image8.jpg" alt="Image 8">
-      <p>Name 8</p>
-      <p>Surname 8</p>
-      <p>Phone 8</p>
-      <p>Email 8</p>
-    </div>
+    <!-- Card deck -->
   </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
 </html>
